@@ -15,22 +15,19 @@ import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 public class XCSPlot extends JPanel {
 
-    private static int window_size = 1000;
+
+    private static int window_size = 600;
 
     public static void main(String[] args){
 
-        JFrame window = new JFrame();
-        window.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        window.setBounds(30, 30, window_size, window_size);
-        window.getContentPane().add(new XCSPlot());
-        window.setVisible(true);
-
+            JFrame window = new JFrame();
+            window.setDefaultCloseOperation(EXIT_ON_CLOSE);
+            window.setBounds(0, 0, window_size, window_size);
+            window.getContentPane().add(new XCSPlot());
+            window.setVisible(true);
     }
 
-
     public void paint(Graphics g) {
-
-
 
         CSVReader reader = null;
         try {
@@ -92,10 +89,10 @@ public class XCSPlot extends JPanel {
 
                     // normalize to window
                     // --------------------------------------
-                    y_l = (int) (float1 * window_size);
-                    y_u = (int) (float2 * window_size);
-                    x_l = (int) (float3 * window_size);
-                    x_u = (int) (float4 * window_size);
+                    y_l = (int) (float1 * window_size *0.9);
+                    y_u = (int) (float2 * window_size *0.9);
+                    x_l = (int) (float3 * window_size *0.9);
+                    x_u = (int) (float4 * window_size *0.9);
 
 
                     // flip values if lower bound is bigger than upper bound
@@ -110,8 +107,8 @@ public class XCSPlot extends JPanel {
                         y_u = temp;
                     }
 
-                    System.out.print(x_l + "," + x_u + " ");
-                    System.out.println(y_l + "," + y_u);
+                    //System.out.print(x_l + "," + x_u + " ");
+                    //System.out.println(y_l + "," + y_u);
                 }
 
                     // COLORS
@@ -154,18 +151,21 @@ public class XCSPlot extends JPanel {
                     experience = Integer.valueOf(nextLine[6]);
 
 
+                    /*
                     System.out.println("Prediction:" + prediction);
                     System.out.println("Prediction error:" + prediction_error);
                     System.out.println("Fitness:" + fitness);
                     System.out.println("Numerosity:" + numerosity);
                     System.out.println("Experience:" + experience + "\n");
+                    */
 
 
-                    // TODO: filter the plotting
-                    if(prediction > 100 && prediction_error < 100 && fitness > 0.08 && experience > 100) {
+                    // TODO: fine-tune the plotting
+                    if(prediction > 999 && prediction_error < 100 && fitness > 0.03 && experience > 100 && numerosity > 4) {
 
-                        g.setColor(new Color(color_r, color_g, color_b));
-                        g.drawRect(x_l, y_l, x_u - x_l, y_u - y_l);
+                        Color color = new Color(color_r, color_g, color_b);
+                        g.setColor(color);
+                        g.fillRect(x_l,y_l,x_u-x_l,y_u - y_l);
                         // MARIO
                     }
                 }
