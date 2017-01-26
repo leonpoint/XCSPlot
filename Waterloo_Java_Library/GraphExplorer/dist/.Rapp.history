@@ -1,0 +1,376 @@
+.jnew("kcl.waterloo.graphics.GJGraphContainer")
+.jnew("kcl/waterloo/graphics/GJGraphContainer")
+.#
+#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/Java1.6/kcl/dist/kcl.jar")#
+print(.jclassPath())
+.jnew("kcl/waterloo/graphics/GJGraphContainer")
+.jinit()
+.jnew("kcl/waterloo/graphics/GJGraphContainer")
+.#
+#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/Java1.6/kcl/dist/kcl.jar")#
+print(.jclassPath())
+.jnew("kcl/waterloo/graphics/GJGraphContainer")
+.jinit()#
+#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/Java1.6/kcl/dist/kcl.jar")#
+print(.jclassPath())
+.jnew("kcl/waterloo/graphics/GJGraphContainer")
+a={1, 10, "This"}
+a={1 10 "This"}
+.jinit()
+if (nzchar(Sys.getenv("NOAWT"))) {#
+	stop(" No AWT available - Is Java runtime headless?")#
+}#
+#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")#
+print(.jclassPath())#
+#
+f <- .jnew("java/awt/Frame", "Hello")#
+gr= .jnew("kcl/waterloo/graphics/GJGraphContainer")#
+.jcall(f, "Ljava/awt/Component;", "add", .jcast(gr, "java/awt/Component"))#
+.jcall(f,, "pack")#
+.jcall(f,, "setVisible", TRUE)#
+.jcall(f,,setDefaultCloseOperation, 2)
+x=1:10
+x
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/kcl.jar#
+print(.jclassPath())
+""
+)
+")
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")#
+print(.jclassPath())
+wplot.scatter(1:10,1:10)
+gr= .jnew("kcl/waterloo/wplot/plot/scatter",1:10,1:10)
+gr= .jnew("kcl/waterloo/plot/wplot/scatter",1:10,1:10)
+gr= .jnew("kcl/waterloo/plot/wplot/scatter")
+gr= .jcall("kcl/waterloo/plot/wplot/scatter")
+gr= .jcall("kcl/waterloo/plot/wplot","scatter")
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter")
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",1:10,1:10)
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",.jcast(1:10),.jcast(1:10))
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",.jcast(1:10, "java/lang/Double"),.jcast(1:10,"java/lang/Double"))
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",1:10,1:10)
+x=1:10
+class(x)
+x=1:10.1
+x
+x=1.1:10.1
+x
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",1:10,1:10)
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",x,x)
+x
+class(x)
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",.jfloat(x),.jfloat(x))
+y=.jfloat(x)
+y
+y=J(x)
+y=.jdouble(x)
+gr= .jcall("kcl/waterloo/plot/wplot","D","scatter",1:10,1:10)
+gr= .jcall("kcl/waterloo/plot/wplot","D","scatter",.jarray(1:10),.jarray(1:10))
+gr= .jcall("kcl/waterloo/plot/wplot",,"scatter",.jarray(1:10),.jarray(1:10))
+gr= .jcall("kcl/waterloo/plot/wplot","kcl/waterloo/plot/wplot","scatter", .jarray(1:10), .jarray(1:10))
+J("kcl/waterloo/plot/wplot")$scatter(.jarray(1:10),.jarray(1:10))
+J("kcl/waterloo/plot/wplot")$scatter(.jarray(1:10))
+J("kcl/waterloo/plot/wplot")$scatter()
+x=J("kcl/waterloo/plot/wplot")$scatter(.jarray(1:10),.jarray(1:10))
+print(.jclassPath())
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")#
+print(.jclassPath())
+x=J("kcl/waterloo/plot/wplot")$scatter(.jarray(1:10),.jarray(1:10))
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")
+.jinit()
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")
+x=J("kcl/waterloo/plot/wplot")$scatter(.jarray(1:10),.jarray(1:10))
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")
+x=J("kcl/waterloo/plot/wplot")$scatter(.jarray(1:10),.jarray(1:10))
+.jinit(force.init = TRUE)
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")#
+print(.jclassPath())
+x=J("kcl/waterloo/plot/wplot")$scatter(1.1:10.1,1.1:10.1)
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")#
+print(.jclassPath())
+x=J("kcl/waterloo/plot/wplot")$scatter(1.1:10.1,1.1:10.1)
+.jinit(force.init = TRUE)
+x=J("kcl/waterloo/plot/wplot")$scatter(1.1:10.1,1.1:10.1)
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")#
+print(.jclassPath())
+x=J("kcl/waterloo/plot/wplot")$scatter(1.1:10.1,1.1:10.1)
+check for broken gomp implementations that don't work with threads#
+broken.gomp <- function() {#
+    # Linux may have the same issue, but we only care about OS X so far#
+    if (length(grep("^darwin",R.version$os)) == 0) return(FALSE)#
+    isTRUE(try({#
+    f <- file(R.home("lib/libR.dylib"),"rb")#
+    gomp <- FALSE#
+    new.gomp <- FALSE#
+    on.exit(close(f))#
+    while (length(r<-readBin(f,"raw",20*1024*1024)) > 0) {#
+      if(length(grepRaw("gomp_malloc", r, fixed=TRUE))) gomp <- TRUE#
+      if(length(grepRaw("gomp_managed_threads", r, fixed=TRUE))) new.gomp <- TRUE#
+    }#
+    gomp && !new.gomp#
+    }, silent=TRUE))#
+}
+.jinit()
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/java1.6/kcl/dist/kcl.jar")#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/eclipse/wplot/dist/wplot.jar")#
+print(.jclassPath())
+x=J("kcl/waterloo/plot/WPlot")$scatter(1.1:10.1,1.1:10.1)
+x
+x=J("kcl/waterloo/plot/WPlot")$scatter(1:10,1:10)
+cp <- paste(lib, pkg, "java", "JGR.jar",sep=.Platform$file.sep)#
+  .jinit(cp)
+check for broken gomp implementations that don't work with threads#
+broken.gomp <- function() {#
+    # Linux may have the same issue, but we only care about OS X so far#
+    if (length(grep("^darwin",R.version$os)) == 0) return(FALSE)#
+    isTRUE(try({#
+    f <- file(R.home("lib/libR.dylib"),"rb")#
+    gomp <- FALSE#
+    new.gomp <- FALSE#
+    on.exit(close(f))#
+    while (length(r<-readBin(f,"raw",20*1024*1024)) > 0) {#
+      if(length(grepRaw("gomp_malloc", r, fixed=TRUE))) gomp <- TRUE#
+      if(length(grepRaw("gomp_managed_threads", r, fixed=TRUE))) new.gomp <- TRUE#
+    }#
+    gomp && !new.gomp#
+    }, silent=TRUE))#
+}#
+#
+# library initialization:#
+.First.lib <- function(lib, pkg) {#
+  library(utils)#
+  ##cat("\nLoading additional JGR support...\n")#
+  library(rJava)#
+  je <- as.environment(match("package:JGR", search()))#
+  assign(".jgr.pkg.path", paste(lib,pkg,sep=.Platform$file.sep), je)#
+  assign(".jgr.works", FALSE, je)#
+  #assign(".jgr.env", new.env(), .je)#
+  ## we supply our own JavaGD class#
+  .setenv <- if (exists("Sys.setenv")) Sys.setenv else Sys.putenv#
+  .setenv("JAVAGD_CLASS_NAME"="org/rosuda/JGR/toolkit/JavaGD")#
+#
+  ## now load rJava for callbacks#
+  ## strictly speaking we should not need to add JGR, because#
+  ## the launcher must set the correct classpath anyway#
+  cp <- paste(lib, pkg, "java", "JGR.jar",sep=.Platform$file.sep)#
+  .jinit(cp)#
+#
+  ## next make sure and JRI and iBase are present#
+  add.classes <- character()#
+  if (is.jnull(.jfindClass("org/rosuda/JRI/REXP",silent=TRUE)))#
+    add.classes <- system.file("jri","JRI.jar",package="rJava")#
+  if (is.jnull(.jfindClass("org/rosuda/ibase/Common",silent=TRUE)))#
+    add.classes <- c(add.classes, system.file("java","iplots.jar",package="iplots"))}
+x=J("kcl/waterloo/plot/WPlot")$scatter(1:10,1:10)
+Sys.setenv(NOAWT=TRUE)#
+library("rJava")#
+Sys.setenv(NOAWT=FALSE)#
+.jinit()#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/private/Java1.6/kcl/dist/kcl.jar")#
+.jaddClassPath("/Volumes/BOOTCAMP/Documents and Settings/ML/My Documents/waterloo/waterlooPlot/out/artifacts/waterlooPlot_jar/waterlooPlot.jar")#
+#
+print(.jclassPath())#
+#
+wb=.jnew("kcl/waterloo/plot/graphBuilder")#
+.jcall(wb,,"setX",1:10)#
+.jcall(wb,,"setY",1:10)#
+.jcall(wb,,"show")
+.jcall(wb,,"show")
+wb
+.jcall(wb,,"show")
+Sys.info()['sysname']
+Sys.info()
+x=Sys.info()['sysname']
+x
+class(x)
+eps
+1-2^-52:(2^-52)/4:1+2^-52
+ans-1
+(1-2^-52:(2^-52)/4:1+2^-52)-1
+(1-2^-52:(2^-52)/4:1+2^-52)==1
+v = -1 : 0.01 : 1
+v = (-1 : 0.01 : 1)
+-1:0.01:1
+1:10
+1:2:10
+0.1:10
+0.1:10.1
+0.1:).2:10.1
+0.1:.2:10.1
+0.1:0.2:10.1
+0.1:2:10.1
+1:2:10
+1:10
+>> x=rand(1,1000);#
+>> sum(x)==sum(fliplr(x))#
+#
+ans =#
+#
+     0
+x=rand(1,1000)
+x=randn(1,1000)
+x=random(1,1000)
+.jinit(paramaters="-Dapple.awt.graphics.UseQuartz=\"true\"")#
+                 .jaddClassPath("/Volumes/BOOTCAMP/waterloo/Sources/GraphExplorer/dist/GraphExplorer.jar")#
+                 .jaddClassPath("/Volumes/BOOTCAMP/waterloo/waterlooPlot/out/artifacts/waterlooPlot_jar/waterlooPlot.jar")
+wb=.jnew("kcl.waterloo.explorer.GraphConsoleHost")
+javaclasspath
+.javaclasspath
+wb=J("kcl.waterloo.explorer.GraphConsoleHost","createInstance")
+wb=J("kcl.waterloo.explorer.GraphConsoleHost$createInstance")
+wb=J("kcl.waterloo.explorer.GraphConsoleHost"$createInstance")
+""
+wb=J("kcl.waterloo.explorer.GraphConsoleHost"$createInstance)
+wb=J("kcl.waterloo.explorer.GraphConsoleHost"$createInstance())
+wb=.jcall("kcl.waterloo.explorer.GraphConsoleHost", "createInstance")
+wb=.jcall("kcl.waterloo.explorer.GraphConsoleHost", ,"createInstance")
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", ,"createInstance")
+wb=.jnew("kcl/waterloo/explorer/GraphConsoleHost")
+.jclassPath()
+.jaddClassPath("/Volumes/BOOTCAMP/waterloo/Sources/GraphExplorer/dist/GraphExplorer.jar")
+.jclassPath()
+.jaddClassPath("/Volumes/BOOTCAMP/waterloo/Waterloo_Java_Library/GraphExplorer/dist/GraphExplorer.jar")
+.jclassPath()
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", ,"createInstance")
+wb=J("kcl.waterloo.explorer.GraphConsoleHost"$createInstance())
+wb=J("kcl.waterloo.explorer.GraphConsoleHost"$createInstance)
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", ,"createInstance",)
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl/waterloo/explorer/GraphConsoleHost","createInstance")
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl.waterloo.swing.explorer.ConsoleHost","createInstance")
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", ,"createInstance")
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl.waterloo.swing.explorer.ConsoleHost","createInstance")
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl.waterloo.swing.explorer.ConsoleHost","createInstance",)
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl.waterloo.swing.explorer.ConsoleHost","createInstance",V)
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl.waterloo.swing.explorer.ConsoleHost","createInstance","V")
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl.waterloo.swing.explorer.ConsoleHost","createInstance",[])
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl.waterloo.swing.explorer.ConsoleHost","createInstance")
+.jimport("kcl/waterloo/explorer/GraphConsoleHost")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo R library/waterloo.R")
+wb
+wb.createInstance()
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl/waterloo/explorer/GraphConsoleHost","createInstance")
+wb=.jcall(wb, "kcl/waterloo/explorer/GraphConsoleHost","createInstance")
+wb=.jcall(wb, "createInstance")
+wb=.jcall(wb, ,,"createInstance")
+wb=.jcall(wb, ,"createInstance")
+wb=.jcall(wb, "kcl/waterloo/explorer/GraphConsoleHost","createInstance")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo R library/waterloo.R")
+wb=.jcall(wb, "kcl/waterloo/explorer/GraphConsoleHost","createInstance")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo R library/waterloo.R")
+wb=.jcall(wb, "kcl/waterloo/explorer/GraphConsoleHost","createInstance")
+wb=.jcall("kcl/waterloo/explorer/GraphConsoleHost", "kcl/waterloo/explorer/GraphConsoleHost","createInstance")
+wb=J("kcl/waterloo/explorer/GraphConsoleHost$createInstance")
+wb=J("kcl/waterloo/explorer/GraphConsoleHost")
+wb
+source("/Volumes/BOOTCAMP/waterloo/Waterloo R library/waterloo.R")
+wb=.jcall(wb, ,"run")
+wb
+wb=J("kcl/waterloo/explorer/GraphConsoleHost")
+.jcall(wb, ,"run")
+.jcall(wb, ,"run",)
+.jcall(wb, ,"run")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo R library/waterloo.R")
+.jcall(wb, ,"run")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo R library/waterloo.R")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_For_R/waterloo.R")
+wb
+wb.run()
+.jcall(wb,,"run")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_For_R/waterloo.R")
+wb=.jnew("kcl.waterloo.explorer.GraphExplorer")
+wb
+.jcall(wb,,"run")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_For_R/waterloo.R")
+.jinit()
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_For_R/waterloo.R")
+wb=.jnew("kcl.waterloo.explorer.GraphExplorer")
+.jcall(wb,,"run")
+.jcall(wb,,"createInstance")
+javaclassPath()
+R_HOME
+getenv("R_HOME")
+help
+javaObject()
+getenv("R_HOME")
+R_HOME
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_For_R/waterloo.R")
+wb=.jnew("kcl.waterloo.explorer.GraphExplorer")#
+.jcall(wb,,"run")
+demo("graphics")
+package.skeleton(name="waterloo", code_files="waterloo.R")
+package.skeleton(name="waterloo")
+.jinit()
+package.skeleton(name="waterloo")
+cd ./waterloo
+cd "./waterloo"
+cd "/waterloo"
+cd "waterloo"
+dir
+ls
+pwd
+getwd()
+die
+dir
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_For_R/waterloo.R")
+.kinit()
+.jinit()
+source("/Users/ML/waterloo/Read-and-delete-me")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_For_R/waterloo.R")
+exec
+run
+getenv("R_HOME")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo R library/waterloo.R")
+source("/Volumes/BOOTCAMP/waterloo/Waterloo_R_Library/waterloo.R")
+switch(Sys.info()[['sysname']],#
+       Windows= {library("rJava")#
+                 .jinit()#
+                .jaddClassPath("C:/Users/malcolm/Documents/waterloo/Waterloo_Java_Library/GraphExplorer/dist/GraphExplorer.jar")#
+       },#
+       Linux  = {library("rJava")#
+                 .jinit()},#
+       Darwin = {print("")#
+                  print("Note: Waterloo Graphics will work in JGR on the Mac OS but may not work properly in other R environments")#
+                 print("")#
+				.jinit(paramaters="-Dapple.awt.graphics.UseQuartz=\"true\"")#
+                 .jaddClassPath("/Volumes/BOOTCAMP/waterloo/Waterloo_Java_Library/GraphExplorer/dist/GraphExplorer.jar")#
+                 }#
+       )#
+wb=.jnew("kcl.waterloo.explorer.GraphExplorer")#
+.jcall(wb,,"run")
+a <- scalaInterpreter()
+a
+cd "/Volumes/BOOTCAMP/waterloo/Waterloo_Java_Library/GraphExplorer/dist"
+cd "//Volumes//BOOTCAMP//waterloo/Waterloo_Java_Library/GraphExplorer/dist"
+cd "//Volumes//BOOTCAMP//waterloo//Waterloo_Java_Library//GraphExplorer//dist"
+cd "\Volumes\BOOTCAMP\waterloo\Waterloo_Java_Library\GraphExplorer\dist"
+cd //Volumes//BOOTCAMP//waterloo//Waterloo_Java_Library//GraphExplorer//dist"
+cd /Volumes/BOOTCAMP/waterloo/Waterloo_Java_Library/GraphExplorer/dist
+cd("/Volumes/BOOTCAMP/waterloo/Waterloo_Java_Library/GraphExplorer/dist")
+a <- javaInterpreter("GraphExplorer.jar")
+a
+a['import kcl.waterloo.explorer.GraphExplorer']
+a['import kcl.waterloo.explorer.GraphExplorer;run']
+a['import kcl.waterloo.explorer.GraphExplorer.*;GraphExplorer.run']
+a['import kcl.waterloo.explorer.GraphExplorer.*;GraphExplorer.run()']
+a['import kcl.waterloo.explorer.GraphExplorer.*;x=new GraphExplorer()']
+a['import kcl.waterloo.explorer.GraphExplorer.*;x=new GraphExplorer()']
+a['import kcl.waterloo.explorer.GraphExplorer.*;GraphExplorer x = GraphExplorer().createInstance']
+a['import kcl.waterloo.explorer.GraphExplorer.*;GraphExplorer x = GraphExplorer.createInstance()']
+a['import kcl.waterloo.explorer.GraphExplorer.*;GraphExplorer x = new GraphExplorer()']
+a['import kcl.waterloo.explorer.GraphExplorer.*;]
+''
+]
+'
+a['import kcl.waterloo.explorer.GraphExplorer.*;']
+a['new GraphExplorer()']
+a['import kcl.waterloo.explorer.*;']
+a['import kcl.waterloo.explorer.*;GraphExplorer x=new GraphExplorer()']
